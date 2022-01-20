@@ -1,0 +1,150 @@
+.one-section {
+  text-align: center;
+  padding: 200px 0;
+  background-color: $jelly-bean;
+  color: $white;
+  &__text1 {
+    font-family: $raleway;
+    font-weight: $raleway-extra-light;
+    font-size: $font-size-large;
+  }
+  &__text2 {
+    font-family: $raleway;
+    font-weight: $raleway-bold;
+    font-size: $font-size-x-large;
+  }
+}
+
+//section-second
+.second {
+  background-color: $quick-silver;
+  text-align: center;
+
+  &__img {
+    width: 70%;
+    padding-top: 50px;
+  }
+  &__paragraph {
+    font-family: $raleway-bold;
+    font-size: $font-size-medium;
+    color: $white;
+    padding: 50px 340px;
+    text-align: left;
+  }
+  &__title {
+    font-family: $raleway-bold;
+    font-size: $font-size-large;
+    color: $white;
+  }
+}
+
+.section-limache {
+  background-color: $snow;
+  text-align: center;
+
+  &__img {
+    width: 70%;
+    padding: 50px;
+  }
+  &__paragraph {
+    font-family: $raleway-bold;
+    font-size: $font-size-medium;
+    color: $granite-gray;
+    padding: 40px 340px;
+    text-align: left;
+  }
+  &__title {
+    font-family: $raleway-bold;
+    font-size: $font-size-large;
+    color: $granite-gray;
+  }
+}
+
+.subtitle {
+  background-color: $jelly-bean;
+  text-align: center;
+  padding: 70px 0;
+
+  &__text {
+    font-family: $raleway-bold;
+    font-size: $font-size-x-large;
+    color: $white;
+    text-transform: uppercase;
+  }
+}
+
+.javiera {
+  background-color: $snow;
+  text-align: center;
+
+  &__img {
+    width: 35%;
+    padding: 50px;
+  }
+  &__paragraph {
+    font-family: $raleway;
+    font-size: $font-size-medium;
+    font-weight: $raleway-extra-light;
+    color: $granite-gray;
+    padding: 70px 340px;
+    text-align: left;
+  }
+  &__subtitle {
+    font-family: $raleway;
+    font-weight: $raleway-regular;
+    font-size: $font-size-large;
+    color: $granite-gray;
+  }
+}
+
+.roberto {
+  background-color: $snow;
+  text-align: center;
+  &__img {
+    width: 35%;
+    padding: 50px;
+  }
+  &__paragraph {
+    font-family: $raleway;
+    font-size: $font-size-medium;
+    font-weight: $raleway-extra-light;
+    color: $granite-gray;
+    padding: 70px 340px;
+    text-align: left;
+  }
+  &__subtitle {
+    font-family: $raleway;
+    font-weight: $raleway-regular;
+    font-size: $font-size-large;
+    color: $granite-gray;
+  }
+}
+.button {
+  background-color: $jelly-bean;
+  text-align: center;
+  padding: 70px 0;
+
+  &__button {
+    background-color: $snow;
+    color: $granite-gray;
+    font-weight: $raleway-regular;
+    font-size: $font-size-medium;
+    font-family: $raleway;
+
+    padding: 10px 50px;
+    border-radius: 50px;
+    text-align: center;
+    border: solid 1px $granite-gray;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+  }
+  &__subtitle {
+    font-family: $raleway;
+    color: $white;
+    font-weight: $raleway-bold;
+    font-size: $font-size-large;
+    padding-bottom: 30px;
+  }
+}
